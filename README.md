@@ -1,1 +1,3 @@
 # prova-Encora
+
+Subsets (Subconjuntos)🎯 ObjetivoGerar e ordenar todos os subconjuntos ($\text{power set}$) de um conjunto de entrada.<br><br>🔑 Técnica Central Bitwise (Máscara de Bits): O algoritmo itera sobre $2^N$ possibilidades, onde cada número da iteração funciona como uma máscara de bits que define quais elementos do conjunto original devem ser incluídos no subconjunto atual.<br><br>🛠️ ComponentesMySet: Classe customizada para representar e gerenciar o conjunto (garante ausência de duplicatas).getSubSets: Função que aplica a lógica Bitwise para a criação dos subconjuntos.sortBySize: Função que organiza o resultado final por tamanho do subconjunto.
